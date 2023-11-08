@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  padding: 2rem;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+.imageWrapper {
+  position: relative;
+  width: 40%;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+.imageWrapper > img:hover {
+  transform: scale(1.1);
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2rem;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.right > :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: var(--gray);
+}
+.size {
+  display: flex;
+  gap: 3rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.sizeVaraints {
+  display: flex;
+  gap: 0.6rem;
+  font-weight: normal;
+  color: var(--themeRed);
+  font-size: 0.8rem;
+}
+.sizeVaraints > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 1.5rem;
+  border: 2px solid var(--themeRed);
+  border-radius: 2rem;
+}
+.sizeVaraints > div:hover {
+  background-color: var(--themeRed);
+  color: #fff;
+  cursor: pointer;
+}
+.quantity {
+  display: flex;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 600;
+  gap: 3rem;
+}
+.counter {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.selected {
+  background-color: var(--themeRed);
+  color: #fff;
+  cursor: pointer;
+}

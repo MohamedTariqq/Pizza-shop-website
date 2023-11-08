@@ -1,0 +1,40 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.heading > :nth-child(1) {
+  color: var(--themeRed);
+}
+.heading > :nth-child(2),
+.heading > :nth-child(3) {
+  font-size: 2rem;
+}
+.services {
+  display: flex;
+  margin-top: 3rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.Service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.serveImage {
+  width: 10rem;
+}
+.Service > :nth-child(2) {
+  font-weight: bold;
+}
+.Service > :nth-child(3) {
+  color: var(--gray);
+  word-wrap: break-word;
+  width: 20rem;
+  text-align: center;
+}
