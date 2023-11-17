@@ -5,7 +5,7 @@ import Image from "next/image";
 import { urlFor } from "../lib/client";
 import toast, { Toaster } from "react-hot-toast";
 
-export default function cart() {
+export default function Cart() {
   const CartData = useStore((state) => state.cart);
   const removePizza = useStore((state) => state.removePizza);
 
